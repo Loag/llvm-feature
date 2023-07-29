@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-which wget > /dev/null || (apt update && apt install wget -y -qq)
+sudo apt install lsb-release wget software-properties-common gnupg
 
 bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"
