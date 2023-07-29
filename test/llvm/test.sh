@@ -6,7 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Definition specific tests
-check "installed" dpkg -s llvm
+check "installed" dpkg -l *llvm*
 
 # Report result
 reportResults
