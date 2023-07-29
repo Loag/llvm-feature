@@ -1,0 +1,12 @@
+{
+  "id": "llvm",
+  "version": "0.0.1",
+  "name": "llvm",
+  "documentationURL": "https://github.com/Loag/llvm-feature",
+  "description": "Installs llvm on debian based systems",
+  "options": {},
+  "mounts": [],
+  "installsAfter": [
+      "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
