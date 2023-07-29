@@ -6,7 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Definition specific tests
-check "version" llvm-config  --version --version
+check "version" clang --version
 
 # Report result
 reportResults
